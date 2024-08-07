@@ -15,7 +15,7 @@ export default function Content() {
             <div className="w-full">
                 <SectionPages3/>
             </div>
-            <div className="w-full h-[100vh] border-2 border-blue-500 flex items-center justify-center ">
+            <div className="w-full">
                 <SectionPages4/>
             </div>
         </div>
