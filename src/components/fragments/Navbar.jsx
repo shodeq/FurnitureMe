@@ -4,7 +4,7 @@ import { FaCartShopping } from "react-icons/fa6";
 export default function Navbar() {
     return (
         <nav className="flex justify-between items-center pt-[22px] pb-[5px] px-[60px] font-poppins">
-            <div className="logo text-[22px] font-bold">
+            <div className="text-[22px] font-bold">
                 <h1>
                     <i>FURNITURE<span className="text-[#598fa7]">.ME</span></i>
                 </h1>
