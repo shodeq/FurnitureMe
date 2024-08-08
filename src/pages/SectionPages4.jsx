@@ -1,5 +1,6 @@
 import { FaUser } from "react-icons/fa6"
 import chairs4 from "../../public/assets/images/23C.png"
+import bg6 from "../../public/assets/images/bg6.jpeg"
 import { FaArrowLeft, FaArrowRight, FaStar, FaStarHalfAlt } from "react-icons/fa"
 export default function SectionPages4() {
     return (
@@ -58,6 +59,29 @@ export default function SectionPages4() {
                 <p className="mt-5 text-[19px] w-1/2 text-center">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita tenetur accusantium veniam
                 </p>
+                <div className="w-full py-[20px] px-[50px] mt-5">
+                    <div className="w-full relative rounded-[20px]">
+                        <img
+                            src={bg6}
+                            className="w-full h-[245px] rounded-[20px]"
+                        />
+                        <div className="w-full h-[245px] p-5 absolute top-0 flex flex-col justify-between items-center bg-black bg-opacity-70 rounded-[20px]">
+                            <h1 className="w-[70%] text-[50px] text-center text-white shadow-md font-bold">
+                                Get Our Promo Code By Subscribing To Our Newsletter
+                            </h1>
+                            <div className="w-[70%] py-[7px] px-[15px] flex justify-between items-center bg-white border-none rounded-lg">
+                                <input
+                                    type="text"
+                                    placeholder="Enter your email"
+                                    className="w-[67%] p-1 outline-none border-none font-poppins"
+                                />
+                                <button className="py-1 px-[25px] bg-[#fdc32f] border-[2px] border-[#fdc32f] rounded-md text-[15px] font-bold font-poppins">
+                                    Subscribe
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
