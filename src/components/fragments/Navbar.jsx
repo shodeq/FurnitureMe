@@ -1,5 +1,6 @@
 import { FaBorderAll, FaRegHeart, FaSearch } from "react-icons/fa";
 import { FaCartShopping } from "react-icons/fa6";
+import Navlink from "../elements/Navlink";
 
 export default function Navbar() {
     return (
@@ -22,21 +23,11 @@ export default function Navbar() {
                         <option value="2">2</option>
                     </select>
                 </div>
-                <a href="#" className="px-[2px] text-black font-bold border-b-[1.8px] border-white hover:border-[#598fa7] hover:text-[#598fa7]">
-                    Home
-                </a>
-                <a href="#" className="px-[2px] text-black font-bold border-b-[1.8px] border-white hover:border-[#598fa7] hover:text-[#598fa7]">
-                    Services
-                </a>
-                <a href="#" className="px-[2px] text-black font-bold border-b-[1.8px] border-white hover:border-[#598fa7] hover:text-[#598fa7]">
-                    Blog
-                </a>
-                <a href="#" className="px-[2px] text-black font-bold border-b-[1.8px] border-white hover:border-[#598fa7] hover:text-[#598fa7]">
-                    Contact
-                </a>
-                <a href="#" className="px-[2px] text-black font-bold border-b-[1.8px] border-white hover:border-[#598fa7] hover:text-[#598fa7]">
-                    About us
-                </a>
+                    <Navlink row={'Home'}/>                
+                    <Navlink row={'Services'}/>                
+                    <Navlink row={'Blog'}/>                
+                    <Navlink row={'Contact'}/>                
+                    <Navlink row={'About us'}/>                
             </div>
             <div className="flex items-center gap-[45px]">
                 <div className="flex items-center gap-[15px] text-[18px]">
