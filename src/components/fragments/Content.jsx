@@ -4,19 +4,19 @@ import SectionPages3 from "../../pages/SectionPages3";
 import SectionPages4 from "../../pages/SectionPages4";
 
 export default function Content() {
-    return(
+    return (
         <div>
             <div className="w-full">
-                <SectionPages1/>
+                <SectionPages1 />
             </div>
             <div className="w-full">
-                <SectionPages2/>
+                <SectionPages2 />
             </div>
             <div className="w-full">
-                <SectionPages3/>
+                <SectionPages3 />
             </div>
             <div className="w-full">
-                <SectionPages4/>
+                <SectionPages4 />
             </div>
         </div>
     )
