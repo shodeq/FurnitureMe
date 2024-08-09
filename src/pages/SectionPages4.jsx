@@ -2,11 +2,12 @@ import { FaUser } from "react-icons/fa6"
 import chairs4 from "../../public/assets/images/23C.png"
 import bg6 from "../../public/assets/images/bg6.jpeg"
 import { FaArrowLeft, FaArrowRight, FaStar, FaStarHalfAlt } from "react-icons/fa"
+import AllTitle from "../components/elements/AllTitle"
 export default function SectionPages4() {
     return (
         <div className="w-full">
             <div className="w-full mt-[30px] mb-[30px] flex flex-col justify-center items-center font-poppins">
-                <h1 className="text-[2.7rem] font-semibold">Customers say about us</h1>
+                <AllTitle text={'Customers say about us'} />
                 <p className="mt-5 text-[19px] w-1/2 text-center">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
                     pariatur recusandae alias
@@ -55,7 +56,7 @@ export default function SectionPages4() {
                 </div>
             </div>
             <div className="w-full py-[30px] px-[50px] flex flex-col justify-center items-center font-poppins">
-                <h1 className="text-[2.7rem] font-semibold">Keep in touch</h1>
+                <AllTitle text={'Keep in touch'} />
                 <p className="mt-5 text-[19px] w-1/2 text-center">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita tenetur accusantium veniam
                 </p>
