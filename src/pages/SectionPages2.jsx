@@ -22,73 +22,73 @@ export default function SectionPages2() {
             <div className="mt-[55px] flex flex-col items-center gap-5">
                 <div className="flex justify-center items-center gap-5">
                     <ProductCard>
-                        <ProductCard.Image image={chair21}/>
-                        <ProductCard.Title title={'Mod Queen armchair'}/>
-                        <ProductCard.Desc description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, iure."}/>
-                        <ProductStars/>
-                        <ProductCard.Rate eye={'4.5'} view={'50 Reviews'}/>
-                        <ProductCard.Price price={'$39.99'}/>
+                        <ProductCard.Image image={chair21} />
+                        <ProductCard.Title title={'Mod Queen armchair'} />
+                        <ProductCard.Desc description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, iure."} />
+                        <ProductStars />
+                        <ProductCard.Rate eye={'4.5'} view={'50 Reviews'} />
+                        <ProductCard.Price price={'$39.99'} />
                     </ProductCard>
                     <ProductCard>
-                        <ProductCard.Image image={chair22}/>
-                        <ProductCard.Title title={'White Wood Table'}/>
-                        <ProductCard.Desc description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, iure."}/>
-                        <ProductStars/>
-                        <ProductCard.Rate eye={'4.5'} view={'55 Reviews'}/>
-                        <ProductCard.Price price={'$39.99'}/>
+                        <ProductCard.Image image={chair22} />
+                        <ProductCard.Title title={'White Wood Table'} />
+                        <ProductCard.Desc description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, iure."} />
+                        <ProductStars />
+                        <ProductCard.Rate eye={'4.5'} view={'55 Reviews'} />
+                        <ProductCard.Price price={'$39.99'} />
                     </ProductCard>
                     <ProductCard>
-                        <ProductCard.Image image={chair23}/>
-                        <ProductCard.Title title={'ESSEBODA 2-seat sofa'}/>
-                        <ProductCard.Desc description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, iure."}/>
-                        <ProductStars/>
-                        <ProductCard.Rate eye={'4.7'} view={'55 Reviews'}/>
-                        <ProductCard.Price price={'$39.99'}/>
+                        <ProductCard.Image image={chair23} />
+                        <ProductCard.Title title={'ESSEBODA 2-seat sofa'} />
+                        <ProductCard.Desc description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, iure."} />
+                        <ProductStars />
+                        <ProductCard.Rate eye={'4.7'} view={'55 Reviews'} />
+                        <ProductCard.Price price={'$39.99'} />
                     </ProductCard>
                     <ProductCard>
-                        <ProductCard.Image image={chair24}/>
-                        <ProductCard.Title title={'Single Sofa'}/>
-                        <ProductCard.Desc description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, iure."}/>
-                        <ProductStars/>
-                        <ProductCard.Rate eye={'4.7'} view={'55 Reviews'}/>
-                        <ProductCard.Price price={'$50.99'}/>
+                        <ProductCard.Image image={chair24} />
+                        <ProductCard.Title title={'Single Sofa'} />
+                        <ProductCard.Desc description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, iure."} />
+                        <ProductStars />
+                        <ProductCard.Rate eye={'4.7'} view={'55 Reviews'} />
+                        <ProductCard.Price price={'$50.99'} />
                     </ProductCard>
                 </div>
                 <div className="flex justify-center items-center gap-5">
                     <ProductCard>
-                        <ProductCard.Image image={chair25}/>
-                        <ProductCard.Title title={'Single Table 18'}/>
-                        <ProductCard.Desc description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, iure."}/>
-                        <ProductStars/>
-                        <ProductCard.Rate eye={'4.7'} view={'70 Reviews'}/>
-                        <ProductCard.Price price={'$50.99'}/>
+                        <ProductCard.Image image={chair25} />
+                        <ProductCard.Title title={'Single Table 18'} />
+                        <ProductCard.Desc description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, iure."} />
+                        <ProductStars />
+                        <ProductCard.Rate eye={'4.7'} view={'70 Reviews'} />
+                        <ProductCard.Price price={'$50.99'} />
                     </ProductCard>
                     <ProductCard>
-                        <ProductCard.Image image={chair26}/>
-                        <ProductCard.Title title={'Soft Gray Chair'}/>
-                        <ProductCard.Desc description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, iure."}/>
-                        <ProductStars/>
-                        <ProductCard.Rate eye={'4.7'} view={'70 Reviews'}/>
-                        <ProductCard.Price price={'$30.99'}/>
+                        <ProductCard.Image image={chair26} />
+                        <ProductCard.Title title={'Soft Gray Chair'} />
+                        <ProductCard.Desc description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, iure."} />
+                        <ProductStars />
+                        <ProductCard.Rate eye={'4.7'} view={'70 Reviews'} />
+                        <ProductCard.Price price={'$30.99'} />
                     </ProductCard>
                     <ProductCard>
-                        <ProductCard.Image image={chair27}/>
-                        <ProductCard.Title title={'Mad Queen armchair'}/>
-                        <ProductCard.Desc description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, iure."}/>
-                        <ProductStars/>
-                        <ProductCard.Rate eye={'4.2'} view={'70 Reviews'}/>
-                        <ProductCard.Price price={'$30.99'}/>
+                        <ProductCard.Image image={chair27} />
+                        <ProductCard.Title title={'Mad Queen armchair'} />
+                        <ProductCard.Desc description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, iure."} />
+                        <ProductStars />
+                        <ProductCard.Rate eye={'4.2'} view={'70 Reviews'} />
+                        <ProductCard.Price price={'$30.99'} />
                     </ProductCard>
                     <ProductCard>
-                        <ProductCard.Image image={chair28}/>
-                        <ProductCard.Title title={'Table Lamps'}/>
-                        <ProductCard.Desc description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, iure."}/>
-                        <ProductStars/>
-                        <ProductCard.Rate eye={'4.2'} view={'40 Reviews'}/>
-                        <ProductCard.Price price={'$100.99'}/>
+                        <ProductCard.Image image={chair28} />
+                        <ProductCard.Title title={'Table Lamps'} />
+                        <ProductCard.Desc description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, iure."} />
+                        <ProductStars />
+                        <ProductCard.Rate eye={'4.2'} view={'40 Reviews'} />
+                        <ProductCard.Price price={'$100.99'} />
                     </ProductCard>
-                    
-                    
+
+
                     {/* <div className="w-[18%] h-[52vh] p-2.5 rounded-[8px] border-[1.7px] border-[#dce3e4] group">
                         <div className="relative w-full h-[22vh] flex justify-center items-center">
                             <FaRegHeart className="absolute top-0 right-0 p-[5px] text-[35px] text-[#598fa7] border-[2px] border-[#598fa7] rounded-full group-hover:bg-[#598fa7] group-hover:text-[white]" />
