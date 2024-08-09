@@ -1,4 +1,3 @@
-import { FaRegHeart, FaStar, FaStarHalfAlt } from "react-icons/fa";
 import chair21 from "../../public/assets/images/21.png"
 import chair22 from "../../public/assets/images/22.png"
 import chair23 from "../../public/assets/images/23.png"
@@ -7,14 +6,15 @@ import chair25 from "../../public/assets/images/25.png"
 import chair26 from "../../public/assets/images/26.png"
 import chair27 from "../../public/assets/images/27.png"
 import chair28 from "../../public/assets/images/28.png"
-import { FaAnglesDown, FaBasketShopping } from "react-icons/fa6";
 import ProductCard from "../components/elements/ProductCard";
 import ProductStars from "../components/elements/ProducStars";
+import AllTitle from "../components/elements/AllTitle"
+import ButtonSeeMore from "../components/elements/ButtonSeeMore"
 
 export default function SectionPages2() {
     return (
         <div className="w-full px-[60px] pt-[10px] pb-[30px] flex flex-col items-center font-poppins">
-            <h1 className="text-[2.7rem] font-semibold">Popular Products</h1>
+            <AllTitle text={'Popular Products'} />
             <p className="w-1/2 mt-[20px] text-[19px] text-center">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Exercitationem quos maxime minima
@@ -121,12 +121,7 @@ export default function SectionPages2() {
                     </div> */}
                 </div>
             </div>
-            <div className="mt-[30px]">
-                <button className="py-[5px] px-5 bg-transparent border-[2px] border-[#598fa7] rounded-[5px] text-sm text-[#598fa7] font-bold font-poppins flex items-center">
-                    See More
-                    <FaAnglesDown className="fa-solid fa-angles-down ml-1" />
-                </button>
-            </div>
+            <ButtonSeeMore />
         </div>
     )
 }

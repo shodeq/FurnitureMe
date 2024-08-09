@@ -1,4 +1,5 @@
 import one from "../../public/assets/images/one.png"
+import ButtonPrimary from "../components/elements/ButtonPrimary"
 export default function SectionPages1() {
     return (
         <div className="w-full flex px-[60px] font-poppins">
@@ -11,16 +12,8 @@ export default function SectionPages1() {
                     ducimus eligendi enim laudantium ea
                 </p>
                 <div className="mt-[50px] flex items-center gap-[15px]">
-                    <button className="w-[15%] p-[5px] bg-[#598fa7] border-[1.5px] border-[#598fa7] rounded-tr-[5px] rounded-bl-[5px] hover:bg-transparent">
-                        <a href="#" className="text-white text-[15px] font-poppins hover:text-[#598fa7]">
-                            Get Started
-                        </a>
-                    </button>
-                    <button className="w-[15%] p-[5px] bg-[#598fa7] border-[1.5px] border-[#598fa7] rounded-tr-[5px] rounded-bl-[5px] hover:bg-transparent">
-                        <a href="#" className="text-white text-[15px] font-poppins hover:text-[#598fa7]">
-                            Login
-                        </a>
-                    </button>
+                    <ButtonPrimary text={'Get Started'} className={'w-[15%]'} />
+                    <ButtonPrimary text={'Login'} className={'w-[15%]'} />
                 </div>
             </div>
             <div className="w-1/2">

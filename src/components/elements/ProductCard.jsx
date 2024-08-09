@@ -1,5 +1,5 @@
-import { FaRegHeart, FaStar, FaStarHalfAlt } from "react-icons/fa";
-// import chair21 from "../../../public/assets/images/21.png"
+/* eslint-disable react/prop-types */
+import { FaRegHeart } from "react-icons/fa";
 import { FaBasketShopping } from "react-icons/fa6";
 
 
@@ -60,8 +60,6 @@ const Price = ({price}) =>{
                         </div>
     )
 }
-
-
 
 ProductCard.Image = Image
 ProductCard.Title = Title
