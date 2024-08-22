@@ -1,8 +1,9 @@
 import { FaUser } from "react-icons/fa6"
-import chairs4 from "../../public/assets/images/23C.png"
-import bg6 from "../../public/assets/images/bg6.jpeg"
+import chairs4 from "../../../../public/assets/images/23C.png"
+import bg6 from "../../../../public/assets/images/bg6.jpeg"
 import { FaArrowLeft, FaArrowRight, FaStar, FaStarHalfAlt } from "react-icons/fa"
-import AllTitle from "../components/elements/AllTitle"
+import AllTitle from "../../../components/elements/AllTitle"
+
 export default function SectionPages4() {
     return (
         <div className="w-full">

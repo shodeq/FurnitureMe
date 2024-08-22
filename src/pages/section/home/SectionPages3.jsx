@@ -1,18 +1,13 @@
-import furniture31 from "../../public/assets/images/31.png"
-import furniture32 from "../../public/assets/images/32.png"
-import furniture33 from "../../public/assets/images/33.png"
-import furniture34 from "../../public/assets/images/34.png"
-import furniture35 from "../../public/assets/images/35.png"
-import furniture27 from "../../public/assets/images/27.png"
-import furniture41 from "../../public/assets/images/41.png"
-import furniture42 from "../../public/assets/images/42.png"
-import furniture43 from "../../public/assets/images/43.png"
-import furniture44 from "../../public/assets/images/44.png"
-import CategoriesList from "../components/elements/CategoriesList"
-import ProductCard from "../components/elements/ProductCard"
-import ProductStars from "../components/elements/ProducStars"
-import AllTitle from "../components/elements/AllTitle"
-import ButtonSeeMore from "../components/elements/ButtonSeeMore"
+import AllTitle from "../../../components/elements/AllTitle"
+import ButtonSeeMore from "../../../components/elements/ButtonSeeMore"
+import ProductStars from "../../../components/elements/ProducStars"
+import ProductCard from "../../../components/elements/ProductCard"
+import Categories from "../../../components/fragments/Categories"
+import furniture41 from "../../../../public/assets/images/41.png"
+import furniture42 from "../../../../public/assets/images/42.png"
+import furniture43 from "../../../../public/assets/images/43.png"
+import furniture44 from "../../../../public/assets/images/44.png"
+
 export default function SectionPages3() {
     return (
         <div className="w-full">
@@ -22,35 +17,7 @@ export default function SectionPages3() {
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, non
                 </p>
                 <div className="mt-20 flex justify-center items-center gap-[5px]">
-                    <CategoriesList>
-                        <CategoriesList.Image image={furniture31} />
-                        <CategoriesList.Desc type={'Chairs'} many={'73'} />
-                    </CategoriesList>
-                    <CategoriesList>
-                        <CategoriesList.Image image={furniture32} />
-                        <CategoriesList.Desc type={'Tables'} many={'93'} />
-                    </CategoriesList>
-                    <CategoriesList>
-                        <CategoriesList.Image image={furniture33} />
-                        <CategoriesList.Desc type={'Table Lamps'} many={'33'} />
-                    </CategoriesList>
-                    <CategoriesList>
-                        <CategoriesList.Image image={furniture34} />
-                        <CategoriesList.Desc type={'Sofas'} many={'46'} />
-                    </CategoriesList>
-                    <CategoriesList>
-                        <CategoriesList.Image image={furniture35} />
-                        <CategoriesList.Desc type={'Bed'} many={'68'} />
-                    </CategoriesList>
-                    <CategoriesList>
-                        <CategoriesList.Image image={furniture27} />
-                        <CategoriesList.Desc type={'Antiques'} many={'268'} />
-                    </CategoriesList>
-                    <CategoriesList>
-                        {/* <CategoriesList.Image image={furniture27}/> */}
-                        <CategoriesList.Desc type={'See All'} many={'4645'} />
-                    </CategoriesList>
-
+                    <Categories />
                     {/* <div className="w-[13%] h-[12vh] p-[8px] flex justify-center items-center border-[2px] border-[#598fa7] rounded-full bg-white">
                         <div className="w-auto flex flex-col justify-center items-center">
                             <h4 className="text-base font-semibold">See All</h4>

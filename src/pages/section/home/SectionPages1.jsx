@@ -1,5 +1,5 @@
-import one from "../../public/assets/images/one.png"
-import ButtonPrimary from "../components/elements/ButtonPrimary"
+import one from "../../../../public/assets/images/one.png"
+import ButtonPrimary from "../../../components/elements/ButtonPrimary"
 export default function SectionPages1() {
     return (
         <div className="w-full flex px-[60px] font-poppins">

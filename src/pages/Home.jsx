@@ -1,11 +1,12 @@
-import SectionPages2 from "../../pages/SectionPages2";
-import SectionPages1 from "../../pages/SectionPages1";
-import SectionPages3 from "../../pages/SectionPages3";
-import SectionPages4 from "../../pages/SectionPages4";
+import MainLayout from "../components/layouts/MainLayout";
+import SectionPages1 from "./section/home/SectionPages1";
+import SectionPages2 from "./section/home/SectionPages2";
+import SectionPages3 from "./section/home/SectionPages3";
+import SectionPages4 from "./section/home/SectionPages4";
 
-export default function Content() {
+export default function Home() {
     return (
-        <div>
+        <MainLayout>
             <div className="w-full">
                 <SectionPages1 />
             </div>
@@ -18,6 +19,6 @@ export default function Content() {
             <div className="w-full">
                 <SectionPages4 />
             </div>
-        </div>
+        </MainLayout>
     )
 }
