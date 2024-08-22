@@ -1,15 +1,16 @@
-const Footerlist = ({children,className}) => {
+/* eslint-disable react/prop-types */
+const Footerlist = ({ children, className }) => {
     return (
         <ul className={`mt-[10px] list-none ${className}`} >
-                            {children}
-                        </ul>
+            {children}
+        </ul>
     )
 }
 
-const List = ({list}) => {
-    return(
+const List = ({ list }) => {
+    return (
         <li className="text-[15px] mt-1 hover:text-[#598fa7]">{list}</li>
-                           
+
     )
 }
 
